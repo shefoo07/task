@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+
+
+
+        .navbar {
+            background-color: #333;
+
+        }
+
+
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            color: white;
+            margin: 0;
+            padding: 15px;
+
+
+        }
+
+
+        .navbar a {
+            text-decoration: none;
+            color: white
+        }
+
+        .navbar a:hover {
+            color: rgb(209, 63, 63);
+            transition: all 0.2s;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <ol><a href="task1.html">Home</a></ol>
+            <ol><a href="">News</a></ol>
+            <ol><a href="">Contact Us</a></ol>
+            <ol><a href="task-login.html">Login</a></ol>
+        </ul>
+    </nav>
+
+
+
+
+    <div class="login_form">
+        <!-- Login form container -->
+        <form action="#">
+          <h3>Log in with</h3>
+    
+          <div class="login_option">
+            <!-- Google button -->
+            <div class="option">
+              <a href="#">
+                <img src="logos/google.png" alt="Google" />
+                <span>Google</span>
+              </a>
+            </div>
+    
+            <!-- Apple button -->
+            <div class="option">
+              <a href="#">
+                <img src="logos/apple.png" alt="Apple" />
+                <span>Apple</span>
+              </a>
+            </div>
+          </div>
+    
+          <!-- Login option separator -->
+          <p class="separator">
+            <span>or</span>
+          </p>
+    
+          <!-- Email input box -->
+          <div class="input_box">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter email address" required />
+          </div>
+    
+          <!-- Paswwrod input box -->
+          <div class="input_box">
+            <div class="password_title">
+              <label for="password">Password</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+    
+            <input type="password" id="password" placeholder="Enter your password" required />
+          </div>
+    
+           <!-- Login button -->
+          <button type="submit">Log In</button>
+    
+          <p class="sign_up">Don't have an account? <a href="#">Sign up</a></p>
+        </form>
+      </div>
+
+
+
+</body>
+
+</html>
